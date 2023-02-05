@@ -13,4 +13,5 @@ include_directories("libsignal-protocol-c/src")
 target_link_libraries(${PROJECT_NAME}
 	signal-protocol-c
 	m
+	sodium
 )
